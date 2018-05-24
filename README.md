@@ -6,7 +6,7 @@ The database is implemented with Sqlite.
 
 The application gives three retrieval options to the user:
 
-1. Random crawl
+1. Random crawl\n
    The user gives an initial url (seed) and a number of pages.
    The crawler creates a list of all the links found in first page and then chooses
    randomly which page to crawl next. This continues until the number of pages
