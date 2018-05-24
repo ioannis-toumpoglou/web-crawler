@@ -35,7 +35,7 @@ records = crawler_backend.page_content()
 
 for record in records:
     url = record[1]
-    html_code = record[3]
+    html_code = record[2]
     text = get_text(html_code)
     crawler_backend.insert_text(url, text)
 
