@@ -27,6 +27,6 @@ The application gives three retrieval options to the user:
    
      
 After collecting the content, by executing the "text_retrieval.py" file, every text
-found in these pages is extracted.
+found in these pages is extracted and is stored in a separate column in the database.
 
 The database is implemented with Sqlite.
