@@ -1,6 +1,6 @@
 # web-crawler
 
-A web crawler that retrieves the html content from pages and stores it in a database.
+A web crawler that retrieves the HTML content from webpages and stores it in a database.
 
 The application gives three retrieval options to the user:
 
@@ -26,7 +26,7 @@ The application gives three retrieval options to the user:
    a breadth-first search.
    
      
-After collecting the content, by executing the "text_retrieval.py" file, every text
-found in these pages is extracted and is stored in a separate column in the database.
+After collecting the content, the text found in these pages is extracted and is 
+stored in the database.
 
-The database is implemented with Sqlite.
+The database is implemented with SQLite.
